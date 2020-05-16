@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    background-image: url('blur.jpg');
+}
+header{
+    border-bottom: 1px black solid;
+}
+.container1{
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+}
+.brand{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.navbar{
+    padding-bottom: 20px; 
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: black;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.container{
+    width: 50%;
+    background-color: white;
+    color: black;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    border: 1px black solid;
+
+}
+.showcase h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+.showcase p{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 50px 200px;
+    line-height: 1.5em;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+button{
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+a:hover{
+    color: coral;
+}
